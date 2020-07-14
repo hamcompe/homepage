@@ -7,9 +7,10 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:jest/recommended",
-    "prettier",
+    "plugin:react-hooks/recommended",
+    "prettier", // Make sure to put it last, so it gets the chance to override other configs https://github.com/prettier/eslint-config-prettier#installation
     "prettier/@typescript-eslint",
-    "plugin:react-hooks/recommended"
+    "prettier/react"
   ],
   "env": {
     "es6": true,
